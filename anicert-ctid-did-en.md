@@ -10,9 +10,7 @@ The following DID Method will be registered in the [DID Specification Registries
 
 ## Abstract
 
-With "Authoritative Identity Authentication, Centralized Issuance, Distributed Authentication" as the overall guiding principle, CTID Digital identity chain is based on the legal identity documents of residents and built on the basis of blockchain, distributed key, identity authentication and other foundations. It is a new infrastructure for the distributed application of digital identities in the industry, which is committed to solving the problems of mutual recognition, mutual trust and traceability of personal identities between institutions, effectively promoting business collaboration, data circulation and compliance authorization of personal data, and ensuring the authenticity, integrity, reliability and full link traceability of digital identities.  
-
-In CTID Digital identity chain, Digital identity identifiers are issued through the Anicert DID method. Digital identity identifiers are a set of digital identity identifiers created for natural person users that are associated with the legal identity information of residents and can be traced. They are the global unique identifiers for natural persons to carry out distributed services in the real world.At the same time, various identity credentials are generated based on Digital identity identifiers, so as to realize the public verifiable and traceable full life cycle management of digital identities.
+CTID Digital Identity Chain, a new infrastructure for distributed digital identity applications, aims to provide authoritative, trustworthy, secure, and convenient distributed digital identity authentication services, which is managed by Beijing Zhongdun Anxin Science and Technology Development Co., Ltd. CTID DID method generates digital identity identifiers and verifiable credentials to provide distributed digital identity services for various industries.
 
 ## Status of  This Document
 
