@@ -80,7 +80,7 @@ To create a DID document, you must submit a transaction that looks like this:
 ```
 POST /didservice/v1/did/create  HTTP/1.1
 Content-Type: application/ld+json
-application/json, text/plain, */*
+Accept: application/ld+json, application/json, text/plain, */*
 Accept-Encoding: gzip, deflate
 
 {
@@ -254,7 +254,7 @@ To revoke the document of the DID, the owner of the DID should send a request th
 ```
 POST /didservice/v1/did/del  HTTP/1.1
 Content-Type: application/ld+json
-application/json, text/plain, */*
+Accept: application/ld+json, application/json, text/plain, */*
 Accept-Encoding: gzip, deflate
 
 {
