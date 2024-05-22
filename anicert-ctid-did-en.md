@@ -33,7 +33,8 @@ Method Specific Identifier (MSI) generation rule：
 - Convert the hash value to hexadecimal (uppercase).
 
 ```
-    ctid-did = did:ctid:method-specific-id
+    method-specific-id = <hexdigit>{64}
+    hexdigit = [0-9A-F]
 ```
 
 Examples:
