@@ -32,12 +32,13 @@ Method Specific Identifier (MSI) generation rule：
 - Using SM3, the national commercial cryptographic algorithm of the People's Republic of China, the personal identity attribute is hashed and the hash value is obtained.
 - Convert the hash value to hexadecimal (uppercase).
 
+It looks like this:
 ```
     method-specific-id = <hexdigit>{64}
     hexdigit = [0-9A-F]
 ```
 
-Examples:
+For example:
 ```
     did:ctid:16D44117484372A2D010BDAA56703E723FB4C5C06CA44105F0C9C5B8020A7073
 ```
