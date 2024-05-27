@@ -265,9 +265,18 @@ Accept-Encoding: gzip, deflate
 }
 ```
 
-## Security and Privacy Considerations
-- All transactions are transmitted encrypted
-- We will not include any personal data in the DID document
-- The information related to the user's privacy is not linked, or on the authority side, the statement submitted by the authority is used to prove the user's proprietary attribute, so as to better protect the user's privacy from being replaced.
-- It can be proved that the private key owned by the DID only exists on the user's device and will not be known to any third party.
+## Security Considerations
+- All transactions are encrypted
 - DID documents use signature technology to prevent malicious error correction.
+- It can be proved that the private key owned by the DID only exists on the user's device and will not be known to any third party.
+
+## Privacy Considerations
+- It will not include any personal data in the DID document
+- The information related to the user's privacy is not linked, or on the authority side, the statement submitted by the authority is used to prove the user's proprietary attribute, so as to better protect the user's privacy from being replaced.
+
+## Reference
+[Decentralized Identifier Resolution (DID Resolution) v0.3](https://www.w3.org/TR/did-core/)<br>
+[DID Specification Registries](https://www.w3.org/TR/did-spec-registries/)<br>
+[Verifiable Credentials Data Model v1.1](https://www.w3.org/TR/vc-data-model/)<br>
+[Verifiable Credentail Implementation Guideline](https://w3c.github.io/vc-imp-guide/#web-authentication)<br>
+[DID Identifier Resolution](https://w3c-ccg.github.io/did-resolution/)<br>
