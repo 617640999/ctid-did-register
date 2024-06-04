@@ -76,7 +76,7 @@ For example:
 ```
 
 ## CTID DID Method Specification
-The following CRUD method calls are based on our self-developed Digital Identity Link SDK, which is integrated and runs on mobile devices and uses a series of transmission encryption and data encryption storage features to secure personal information and private key data.
+The following CRUD method calls are based on our self-developed `CTID Digital Identity Chain SDK`, which is integrated and runs on mobile devices and uses a series of transmission encryption and data encryption storage features to secure personal information and private key data.
 ### Create
 To create a DID document, you must submit a transaction that looks like this: 
 
@@ -267,10 +267,10 @@ Accept-Encoding: gzip, deflate
 ```
 
 ## Security Considerations
-- In terms of running environment security, the digital identity chain SDK will detect the running environment and prohibit running on the simulator or root device to ensure that the SDK runs in a safe environment.
-- In terms of data storage security, user data is encrypted multiple times by the digital identity chain SDK, through the use of key library system, white box algorithm, encrypted database and other technologies, to ensure that the data can not be decrypted after being stolen.
-- In terms of code security protection, the digital identity chain SDK code is hardened using virtual machine instruction protection technology to avoid the SDK being decompiled and ensure the code logic security.
-- We strictly review the qualification of digital identity chain SDK access of institutions or organizations, and issue access certificates to those institutions or organizations that pass the review.
+- In terms of running environment security, the `CTID Digital Identity Chain SDK` will detect the running environment and prohibit running on the simulator or root device to ensure that the SDK runs in a safe environment.
+- In terms of data storage security, user data is encrypted multiple times by the `CTID Digital Identity Chain SDK`, through the use of key library system, white box algorithm, encrypted database and other technologies, to ensure that the data can not be decrypted after being stolen.
+- In terms of code security protection, the `CTID Digital Identity Chain SDK` code is hardened using virtual machine instruction protection technology to avoid the SDK being decompiled and ensure the code logic security.
+- We strictly review the qualification of `CTID Digital Identity Chain SDK` access of institutions or organizations, and issue access certificates to those institutions or organizations that pass the review.
 
 ### Attacks
 - Data is encrypted and signed to prevent data from being viewed, modified, and attacked during transmission.
