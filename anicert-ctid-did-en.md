@@ -76,6 +76,7 @@ For example:
 ```
 
 ## CTID DID Method Specification
+The following CRUD method calls are based on our self-developed Digital Identity Link SDK, which is integrated and runs on mobile devices and uses a series of transmission encryption and data encryption storage features to secure personal information and private key data.
 ### Create
 To create a DID document, you must submit a transaction that looks like this: 
 
@@ -266,9 +267,11 @@ Accept-Encoding: gzip, deflate
 ```
 
 ## Security Considerations
-- All transactions are encrypted
-- DID documents use signature technology to prevent malicious error correction.
-- It can be proved that the private key owned by the DID only exists on the user's device and will not be known to any third party.
+- In terms of running environment security, the digital identity chain SDK will detect the running environment and prohibit running on the simulator or root device to ensure that the SDK runs in a safe environment.
+- In terms of data storage security, user data is encrypted multiple times, through the use of key library system, white box algorithm, encrypted database and other technologies, to ensure that the data can not be decrypted after being stolen
+- In terms of code security protection, the digital identity chain SDK code is hardened using virtual machine instruction protection technology to avoid the SDK being decompiled and ensure the code logic security.
+- Data is encrypted and signed during transmission to prevent data from being viewed, modified, and attacked during transmission.
+
 
 ## Privacy Considerations
 - It will not include any personal data in the DID document
