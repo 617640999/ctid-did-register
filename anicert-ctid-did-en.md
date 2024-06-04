@@ -268,17 +268,17 @@ Accept-Encoding: gzip, deflate
 
 ## Security Considerations
 - In terms of running environment security, the digital identity chain SDK will detect the running environment and prohibit running on the simulator or root device to ensure that the SDK runs in a safe environment.
-- In terms of data storage security, user data is encrypted multiple times, through the use of key library system, white box algorithm, encrypted database and other technologies, to ensure that the data can not be decrypted after being stolen.
+- In terms of data storage security, user data is encrypted multiple times by the digital identity chain SDK, through the use of key library system, white box algorithm, encrypted database and other technologies, to ensure that the data can not be decrypted after being stolen.
 - In terms of code security protection, the digital identity chain SDK code is hardened using virtual machine instruction protection technology to avoid the SDK being decompiled and ensure the code logic security.
+- We strictly review the qualification of digital identity chain SDK access of institutions or organizations, and issue access certificates to those institutions or organizations that pass the review.
 
 ### Attacks
-- Data is encrypted and signed during transmission to prevent data from being viewed, modified, and attacked during transmission.
-- To prevent an attack, a did proof has to go through the signature verification against the verifier’s challenge. The signature is processed inside the highly secured security key tag hardware.
+- Data is encrypted and signed to prevent data from being viewed, modified, and attacked during transmission.
 
 ## Privacy Considerations
 - The did:ctid blockchain and DID Documents contain no PII (Personally-Identifiable Information).
-- It is not possible to reverse associate user personal information with any information on the did document.
-- When a user applies for a digital identity, the user key pair is created by the SDK and stored in the terminal TEE or keystore together with fingerprint authentication.
+- As mentioned earlier, it is not possible to reverse associate user personal information with any information on the did document.
+- When a user applies for a digital identity, the user key pair is created by the SDK and stored in the terminal TEE(Hardware-supported Trusted Execution Environments) or keystore together with fingerprint authentication.
 
 ## Reference
 [Decentralized Identifier Resolution (DID Resolution) v0.3](https://www.w3.org/TR/did-core/)<br>
